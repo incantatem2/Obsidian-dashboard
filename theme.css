@@ -10,8 +10,8 @@ settings:
         allowEmpty: false
         default: matcha
         options:
-            - dreamscape
             - matcha
+            - dreamscape
             - peach
             - pool
             - strawberry
@@ -145,65 +145,7 @@ body {
 }
 
 
-body.dreamscape {
-    --text-accent: #eaaeea;
-    --text-accent-hover: #D8C2FF;
 
-    --color-base-00: #FAFAFa;
-    --color-base-05: #D7E3FC;
-    --color-base-10: #fafafa;
-    --color-base-20: #fafafa;
-    --color-base-25: #D7E3FC;
-    --color-base-30: #D7E3FC;
-    --color-base-35: #D7E3FC;
-    --color-base-40: #D7E3FC;
-    --color-base-50: #4E4D49;
-    --color-base-60: #D8C2FF;
-    --color-base-70: #434B56;
-    --color-base-100: #222;
-
-    --hr-color: #D7E3FC;
-    --icon-color-hover: #D8C2FF;
-    --icon-color-focused: #D8C2FF;
-    --inline-title-color: #D8C2FF;
-    --interactive-normal: #D7E3FC;
-    --nav-item-background-hover: #D7E3FC;
-    --slider-track-background: ;
-
-    /* add a background to the whole sidebar */
-    .mod-sidedock {
-        background: radial-gradient(circle at top left, transparent 25%, #f6f1ff 25.5%, #f6f1ff 36%, transparent 37%, transparent 100%), radial-gradient(circle at bottom right, transparent 34%, #f6f1ff 34.5%, #f6f1ff 45.5%, transparent 46%, transparent 100%);
-        background-size: 6em 6em;
-    }
-
-    i,
-    em,
-    span.cm-em {
-        color: #D8C2FF;
-    }
-
-    a {
-        text-decoration-color: #D8C2FF00;
-        font-weight: 600;
-    }
-
-    .markdown-rendered blockquote {
-        border-left: 1px dotted #ABC4FF;
-    }
-
-    .callout {
-        border-color: #D8C2FF;
-        background-color: #fafafa83;
-    }
-
-    .callout-title {
-        color: #D8C2FF;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: #D7E3FC !important;
-    }
-}
 
 body.theme-light,
 body.theme-dark,
@@ -265,6 +207,67 @@ body.matcha {
         background: #cedac99a !important;
     }
 }
+
+body.dreamscape {
+    --text-accent: #eaaeea;
+    --text-accent-hover: #D8C2FF;
+
+    --color-base-00: #FAFAFa;
+    --color-base-05: #D7E3FC;
+    --color-base-10: #fafafa;
+    --color-base-20: #fafafa;
+    --color-base-25: #D7E3FC;
+    --color-base-30: #D7E3FC;
+    --color-base-35: #D7E3FC;
+    --color-base-40: #D7E3FC;
+    --color-base-50: #4E4D49;
+    --color-base-60: #D8C2FF;
+    --color-base-70: #434B56;
+    --color-base-100: #222;
+
+    --hr-color: #D7E3FC;
+    --icon-color-hover: #D8C2FF;
+    --icon-color-focused: #D8C2FF;
+    --inline-title-color: #D8C2FF;
+    --interactive-normal: #D7E3FC;
+    --nav-item-background-hover: #D7E3FC;
+    --slider-track-background: ;
+
+    /* add a background to the whole sidebar */
+    .mod-sidedock {
+        background: radial-gradient(circle at top left, transparent 25%, #f6f1ff 25.5%, #f6f1ff 36%, transparent 37%, transparent 100%), radial-gradient(circle at bottom right, transparent 34%, #f6f1ff 34.5%, #f6f1ff 45.5%, transparent 46%, transparent 100%);
+        background-size: 6em 6em;
+    }
+
+    i,
+    em,
+    span.cm-em {
+        color: #D8C2FF;
+    }
+
+    a {
+        text-decoration-color: #D8C2FF00;
+        font-weight: 600;
+    }
+
+    .markdown-rendered blockquote {
+        border-left: 1px dotted #ABC4FF;
+    }
+
+    .callout {
+        border-color: #D8C2FF;
+        background-color: #fafafa83;
+    }
+
+    .callout-title {
+        color: #D8C2FF;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #D7E3FC !important;
+    }
+}
+
 
 body.peach {
     --text-accent: #F68080;
