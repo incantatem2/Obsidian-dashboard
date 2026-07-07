@@ -1,9 +1,4 @@
 
-# Important:
-My themes will now get published [here](https://obsidian-theme-cafe.neocities.org)
- and can be downloaded directly as zip files.
- 
-
 # Dashboard
 
 A pastel theme with many colors and patterns, with the feel of a bullet journal.
