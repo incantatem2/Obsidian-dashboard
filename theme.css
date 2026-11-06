@@ -26,7 +26,7 @@ settings:
     --nav-item-color: #202430;
     --nav-item-color-active: #888888;
     --nav-item-color-hover: #222222;
-    --tab-divider-color: transparent !important;
+    --tab-divider-color: transparent;
     --tag-color-hover: #999999;
     --tag-background: transparent;
     --tag-background-hover: transparent;
